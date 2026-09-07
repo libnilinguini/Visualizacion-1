@@ -10,11 +10,11 @@ class E : public C
             std::cout << "Constructor de E" << std::endl;
         }
 
-        /*
+        
         void sayBye() override
         {
             std::cout << "E->Bye" << std::endl;
-        }*/
+        }
 
 
 };

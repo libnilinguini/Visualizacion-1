@@ -12,7 +12,7 @@ class D : public C
 
         void sayHi() override;
 
-        //void sayBye() override;
+        void sayBye() override;
 
 };
 

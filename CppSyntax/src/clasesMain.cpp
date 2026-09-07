@@ -5,7 +5,7 @@
 #include "D.h"
 #include "E.h"
 
-//void f(C& object);
+void f(C& object);
 
 
 int main(){
@@ -23,7 +23,7 @@ int main(){
     E e;
     e.sayHi();
 
-    /*
+    
     f(d);
     f(e);
 
@@ -32,14 +32,14 @@ int main(){
     delete obj;
     obj = new D();
     obj->sayBye();
-    delete obj;*/
+    delete obj;
 }
 
-/*
+
 void f(C& object)
 {
     object.sayBye();
 }
-*/
+
 
 

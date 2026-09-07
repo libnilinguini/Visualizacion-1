@@ -17,7 +17,7 @@ class C
             std::cout<< "C->HI"<< std::endl;
         }
 
-        //virtual void sayBye() = 0;
+        virtual void sayBye() = 0;
 };
 
 #endif

@@ -8,21 +8,22 @@ class B
 {
     private:
         A a;
-        //const int value;
+        const int value;
     
     public:
-        B()
+        /*B()
         {
+            //value =5;
             std::cout<< "B: Constructor sin parámetros" << std::endl;
-        }
+        }*/
 
         //Comentar constructor sin parámetros de A
         
-        /*B(): a{5,"adioos"},value{7}
+        B(): a{5,"adioos"},value{7}
         {
             //value = 5;
             std::cout<< "B: Constructor con parámetros" << std::endl;
-        }*/
+        }
         
 
 };
