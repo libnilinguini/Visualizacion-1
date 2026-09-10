@@ -16,7 +16,7 @@ class ray
          * @brief Constructor con parámetros,
          * Inicializa los miembros de la clase
          */
-        ray(const point3& origin, const vec3& direction) //:
+        ray(const point3& origin, const vec3& direction) : orig(origin), dir(direction) //:
         {
             //TODO
         }
@@ -27,6 +27,7 @@ class ray
         const point3& origin() const
         { 
             //TODO 
+            return orig;
         }
 
         /**
@@ -35,6 +36,7 @@ class ray
         const vec3& direction() const 
         { 
             //TODO
+            return dir;
         }
 
         /**
@@ -44,6 +46,7 @@ class ray
         point3 at(double t) const 
         {
             //TODO
+            return orig + t * dir;
         }
 };
 
